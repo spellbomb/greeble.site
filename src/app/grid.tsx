@@ -5,6 +5,7 @@ import styles from "./grid.module.css";
 import Cam from "../greebles/Cam";
 import LoopySize from "../greebles/LoopySize";
 import LoopySnake from "../greebles/LoopySnake";
+import Lisa from "../greebles/Lisa";
 
 const Grid = () => {
   const [greebleState, setGreebleState] = useState("small");
@@ -43,8 +44,8 @@ const Grid = () => {
       <div className={styles.gridItem}>
         <p>another item</p>
       </div>
-      <div className={styles.gridItem}>
-        <p>another item</p>
+      <div>
+        <Lisa />
       </div>
       <div className={styles.gridItem}>
         <p>another item</p>
