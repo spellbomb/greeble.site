@@ -1,0 +1,17 @@
+.grid-row {
+  display: flex;
+}
+
+.grid-cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #eee;
+}
+
+.grid-cell.snake {
+  background-color: green;
+}
+
+.grid-cell.food {
+  background-color: red;
+}
