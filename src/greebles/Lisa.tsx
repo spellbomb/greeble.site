@@ -85,7 +85,7 @@ const Lisa = () => {
       `}</style>
       <div style={containerStyle} onClick={handleClick}>
         <div id="heart" style={heartStyle}></div>
-        <div style={textStyle}>made with love by lisatomic (click me)</div>
+        <div style={textStyle}>greebled with love by lisatomic (click me)</div>
       </div>
     </>
   );
